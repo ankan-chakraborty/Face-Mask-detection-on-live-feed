@@ -8,7 +8,7 @@ Dataset is taken from: <a href='https://github.com/chandrikadeb7/Face-Mask-Detec
 
 **1. With Mask:**
 
-   <img src ='https://github.com/ankan-chakraborty/Face-Mask-detection-on-live-feed/blob/main/Output%20Snapshot/With%20Mask.JPG' width = '800x'>
+   <img src ='https://github.com/ankan-chakraborty/Face-Mask-detection-on-live-feed/blob/main/Output%20Snapshot/With%20Mask.JPG' width = '800px'>
    
    
 **2. Without Mask:**
