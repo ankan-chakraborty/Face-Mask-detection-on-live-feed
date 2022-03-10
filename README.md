@@ -3,3 +3,16 @@ This Project contains how to fine tune Face-Mask-detection using MobileNet V2 an
 
 ### Dataset 
 Dataset is taken from: <a href='https://github.com/chandrikadeb7/Face-Mask-Detection/tree/master/dataset'>Here</a>.
+
+### Snapshot of Live Feed Output
+
+**1. With Mask:**
+
+   <img src ='https://github.com/ankan-chakraborty/Face-Mask-detection-on-live-feed/blob/main/Output%20Snapshot/With%20Mask.JPG' width = '800x'>
+   
+   
+**2. Without Mask:**
+
+   <img src ='https://github.com/ankan-chakraborty/Face-Mask-detection-on-live-feed/blob/main/Output%20Snapshot/Without%20Mask.JPG' width = '800px'>
+   
+   
