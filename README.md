@@ -13,7 +13,7 @@ To check a sample real time mask detection output video, please <a href="https:/
 Dataset is taken from: <a href='https://github.com/chandrikadeb7/Face-Mask-Detection/tree/master/dataset'>Here</a>.
 
 ### Illumination Check
-The following code snippet checks the illumination condition on each face and drops those faces before sending it to Mask Detection Classifier. Hence it reduces false classification and increases classification precision.
+The following code snippet checks the illumination condition on each face and drops those over-illuminated or under-exposed faces before sending it to Mask Detection Classifier. Hence it reduces false classification and increases classification precision.
 
 ```
 def illumination(image_array, bright_threshold = 0.5, dark_threshold = 0.2):
