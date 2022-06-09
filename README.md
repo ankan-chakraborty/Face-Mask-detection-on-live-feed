@@ -1,7 +1,7 @@
 # Face-Mask-detection-on-live-feed
 **This Project contains:**
 * **Model Training:** How to fine tune Face-Mask-detection using MobileNet V2. 
-* **Illumination Check:** Applying pure image processing technique to get rid of over-illuminated or under-exposed face image and only infer only on those images which are in good lighting condition. [Check Below](#illumination-check).
+* **Illumination Check:** Applying pure image processing technique to get rid of over-exposed or under-exposed face image and only infer only on those images which are in good lighting condition. [Check Below](#illumination-check).
 * **Real Time Inference:** And finally apply it on live feed for real time inference. 
 
 ### Sample Output Video
@@ -13,7 +13,7 @@ To check a sample real time mask detection output video, please <a href="https:/
 Dataset is taken from: <a href='https://github.com/chandrikadeb7/Face-Mask-Detection/tree/master/dataset'>Here</a>.
 
 ### Illumination Check
-The following code snippet checks the illumination condition on each face and drops those over-illuminated or under-exposed faces before sending it to Mask Detection Classifier. Hence it reduces false classification and increases classification precision.
+The following code snippet checks the illumination condition on each face and drops those over-exposed or under-exposed faces before sending it to Mask Detection Classifier. Hence it reduces false classification and increases classification precision.
 
 ```
 def illumination(image_array, bright_threshold = 0.5, dark_threshold = 0.2):
