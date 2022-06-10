@@ -4,6 +4,23 @@
 * **Illumination Check:** Applying pure image processing technique to get rid of over-exposed or under-exposed face image and only infer only on those images which are in good lighting condition. [Check Below](#illumination-check).
 * **Real Time Inference:** And finally apply it on live feed for real time inference. 
 
+## Network Architecture and Hardware
+
+| Architecture| MobileNETV2 |
+| :---        |    :----:   |
+| CPU         | Ryzen 5, 4th Generation |
+| GPU         | NVIDIA GTX 1650 Ti, 4GB |
+
+Model is trained on GPU. And inference is done on CPU.
+
+## Inference
+
+| Inference Mode | CPU (Ryzen 5, 4th Gen|
+| :---        |    :----:   |
+| Accuracy    | 99.51% |
+| FPS         | 12     |
+
+
 ### Sample Output Video
 To check a sample real time mask detection output video, please <a href="https://github.com/ankan-chakraborty/Face-Mask-detection-on-live-feed/blob/main/Face-mask-detection.mp4">Click here</a>.
 
@@ -64,3 +81,4 @@ def illumination(image_array, bright_threshold = 0.5, dark_threshold = 0.2):
    <img src ='https://github.com/ankan-chakraborty/Face-Mask-detection-on-live-feed/blob/main/Snapshots/Without%20Mask.JPG' width = '800px'>
    
    
+Thanks for visiting. Happy Learning !!
