@@ -6,7 +6,7 @@
 
 ## Network Architecture and Hardware
 
-| Architecture| MobileNETV2 |
+| Architecture| MobileNetV2 |
 | :---        |    :----:   |
 | CPU         | Ryzen 5, 4th Generation |
 | GPU         | NVIDIA GTX 1650 Ti, 4GB |
