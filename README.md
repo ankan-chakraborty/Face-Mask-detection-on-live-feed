@@ -1,3 +1,5 @@
+![Python](https://img.shields.io/static/v1?label=Language%20Used&message=Python&color=blue&logo=python&logoColor=white)<br>
+
 # Face-Mask-detection-on-live-feed
 **This Project contains:**
 * **Model Training:** How to fine tune Face-Mask-detection using MobileNet V2. 
